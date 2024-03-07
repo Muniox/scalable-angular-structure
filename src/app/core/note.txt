@@ -1,0 +1,22 @@
+W tym folderze powinny się znaleźć wszyskie nasze główne funkcjonalności oraz:
+- athorization
+- guards
+- interceptors
+- handlers
+and any others
+
+Guards:
+Auth guard powinien sprawdzic czy user jest upoważniony czy nie (authorized or not) do dostępu do ścieżki (route)
+Login guard to prevent logged users to access login page
+Role guard ma za zadanie sprawdzać czy użykownik o danej roli powinien mieć dostęp do danej ścieżki (route)
+
+Interceptors:
+Error interceptor will handle requests actually intercept all requsts and throw an error ro user in user format (notification, alert...)
+
+Services:
+Login to handle login requests
+User to store all data about the user from jwt (when i need a user if or user email or roles or anything)
+Token to handle requsts refresh token
+
+Handlers:
+handlers folder to create some handlers or anything you need in your app

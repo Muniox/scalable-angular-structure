@@ -1,0 +1,20 @@
+The public module will hold all public files means that everything which has to  be accessible
+for non-registered users will be placed there for example 404 pgae, login page, 
+presentational page about us...
+
+Public Routing module
+will hold the router outlet and will handle routes for this module
+
+Components
+will hold all public components
+
+Models
+All Interfaces
+
+Http
+services for all get, post, put, update, delete
+communication between api and client
+
+Services
+communication between components intself
+
